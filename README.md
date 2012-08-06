@@ -22,7 +22,7 @@ A plug-in enhancement for jQuery UI dialogs that adds an additional control to e
 	$('#dialog').dialog( { maxamizable:true } );
 	
 ##DateHelper.js
-A port of [CFWheels project](http://code.google.com/p/cfwheels/source/browse/trunk/wheels/plugins/datehelpers/DateHelpers.cfc?spec=svn2241&r=2241) Date Helper to provide time differences in plain English. For example, "about 1 hour ago" instead of "58 minutes"
+A port of the [CFWheels Date Helper](http://code.google.com/p/cfwheels/source/browse/trunk/wheels/plugins/datehelpers/DateHelpers.cfc?spec=svn2241&r=2241) object, which provide time differences in words. For example, "about 1 hour ago" instead of "58 minutes"
 
 <i>Usage</i>
 
