@@ -5,7 +5,12 @@
 const Lexer = class {
   constructor() {}
 
-  // converts a phrase into a boolean token stream
+  /**
+   * swaps exact match phrases (i.e. one or many terms in between double quotes) with variables
+   * @param query   boolean syntax strings to be variablized 
+   * @param exacts  a reference to a map that will hold the contents of the variablized exact match strings
+   * @return        the variables boolean syntax string
+   */
   _variablizeExacts(query, exacts) {
     let chars = [...query];
     let capture = false;
